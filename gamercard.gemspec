@@ -4,8 +4,8 @@ require File.expand_path('../lib/gamercard/version', __FILE__)
 Gem::Specification.new do |s|
   s.authors       = ["Matt Wilson"]
   s.email         = ["mhw@hypomodern.com"]
-  s.description   = %q{TODO: Write a gem description}
-  s.summary       = %q{TODO: Write a gem summary}
+  s.description   = %q{A Simple & Straightforward XBox Live Gamercard parser.}
+  s.summary       = %q{A Simple & Straightforward XBox Live Gamercard parser.}
   s.homepage      = "https://github.com/hypomodern/gamercard"
 
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
