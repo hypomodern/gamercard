@@ -2,6 +2,8 @@
 
 Retrieves and parses an Xbox Live Gamercard for a player, providing a hash of the relevant data about the player or the raw HTML.
 
+[![Build Status](https://secure.travis-ci.org/hypomodern/gamercard.png)](http://travis-ci.org/hypomodern/gamercard)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -110,7 +112,7 @@ end
 
 ## CHANGELOG
 
-* v0.0.1 Hello World
+* **v0.0.1 Hello World**
   * Returns all the basic gamercard data, sans status. Status can be had from a public site, though, so that is next!
 
 ## Thanks to
